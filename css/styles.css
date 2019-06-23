@@ -1,0 +1,105 @@
+body {
+  background-color: #F0ECEE;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-right: 690px;
+}
+
+.logospan {
+  color: #FF4850;
+  font-weight: bolder;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #88898B;
+  display: block;
+  padding: 10px;
+
+}
+
+nav a:hover {
+  background-color:  #FF4850;
+  padding: 10px;
+  border-radius: 15px;
+  color: #88898B;
+
+}
+
+.adopt {
+  color: #FF4850;
+}
+
+p {
+  color: #88898B;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #FF4850;  color: #88898B;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #CCC;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.content {
+  display: block;
+  position: relative;
+  padding: 50px;
+  top: 60px;
+}
+
+@media (min-width: 0) {
+  body {
+    background-image: none;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    width: 100%;
+    display: flex;
+  }
+
+  .content {
+    flex-direction: column;
+    justify-content: flex-start;
+    display: inline-block;
+  }
+
+  body {
+    background-image: url(images/bulldog.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+  }
+
+
+
+}
